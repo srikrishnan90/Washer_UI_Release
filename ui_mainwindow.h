@@ -3229,7 +3229,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(7);
+        stackedWidget->setCurrentIndex(11);
         stackedWidget_2->setCurrentIndex(2);
 
 
