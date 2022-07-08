@@ -413,6 +413,7 @@ public:
         new QListWidgetItem(listWidget_3);
         new QListWidgetItem(listWidget_3);
         new QListWidgetItem(listWidget_3);
+        new QListWidgetItem(listWidget_3);
         listWidget_3->setObjectName(QStringLiteral("listWidget_3"));
         listWidget_3->setGeometry(QRect(0, 20, 121, 311));
         listWidget_3->setFont(font2);
@@ -3229,7 +3230,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(11);
+        stackedWidget->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(2);
 
 
@@ -3272,32 +3273,34 @@ public:
         ___qlistwidgetitem7->setText(QApplication::translate("MainWindow", "300", nullptr));
         QListWidgetItem *___qlistwidgetitem8 = listWidget_3->item(6);
         ___qlistwidgetitem8->setText(QApplication::translate("MainWindow", "350", nullptr));
+        QListWidgetItem *___qlistwidgetitem9 = listWidget_3->item(7);
+        ___qlistwidgetitem9->setText(QApplication::translate("MainWindow", "400", nullptr));
         listWidget_3->setSortingEnabled(__sortingEnabled1);
 
         groupBox_3->setTitle(QApplication::translate("MainWindow", "Wash Cycle", nullptr));
 
         const bool __sortingEnabled2 = listWidget_4->isSortingEnabled();
         listWidget_4->setSortingEnabled(false);
-        QListWidgetItem *___qlistwidgetitem9 = listWidget_4->item(0);
-        ___qlistwidgetitem9->setText(QApplication::translate("MainWindow", "1", nullptr));
-        QListWidgetItem *___qlistwidgetitem10 = listWidget_4->item(1);
-        ___qlistwidgetitem10->setText(QApplication::translate("MainWindow", "2", nullptr));
-        QListWidgetItem *___qlistwidgetitem11 = listWidget_4->item(2);
-        ___qlistwidgetitem11->setText(QApplication::translate("MainWindow", "3", nullptr));
-        QListWidgetItem *___qlistwidgetitem12 = listWidget_4->item(3);
-        ___qlistwidgetitem12->setText(QApplication::translate("MainWindow", "4", nullptr));
-        QListWidgetItem *___qlistwidgetitem13 = listWidget_4->item(4);
-        ___qlistwidgetitem13->setText(QApplication::translate("MainWindow", "5", nullptr));
-        QListWidgetItem *___qlistwidgetitem14 = listWidget_4->item(5);
-        ___qlistwidgetitem14->setText(QApplication::translate("MainWindow", "6", nullptr));
-        QListWidgetItem *___qlistwidgetitem15 = listWidget_4->item(6);
-        ___qlistwidgetitem15->setText(QApplication::translate("MainWindow", "7", nullptr));
-        QListWidgetItem *___qlistwidgetitem16 = listWidget_4->item(7);
-        ___qlistwidgetitem16->setText(QApplication::translate("MainWindow", "8", nullptr));
-        QListWidgetItem *___qlistwidgetitem17 = listWidget_4->item(8);
-        ___qlistwidgetitem17->setText(QApplication::translate("MainWindow", "9", nullptr));
-        QListWidgetItem *___qlistwidgetitem18 = listWidget_4->item(9);
-        ___qlistwidgetitem18->setText(QApplication::translate("MainWindow", "10", nullptr));
+        QListWidgetItem *___qlistwidgetitem10 = listWidget_4->item(0);
+        ___qlistwidgetitem10->setText(QApplication::translate("MainWindow", "1", nullptr));
+        QListWidgetItem *___qlistwidgetitem11 = listWidget_4->item(1);
+        ___qlistwidgetitem11->setText(QApplication::translate("MainWindow", "2", nullptr));
+        QListWidgetItem *___qlistwidgetitem12 = listWidget_4->item(2);
+        ___qlistwidgetitem12->setText(QApplication::translate("MainWindow", "3", nullptr));
+        QListWidgetItem *___qlistwidgetitem13 = listWidget_4->item(3);
+        ___qlistwidgetitem13->setText(QApplication::translate("MainWindow", "4", nullptr));
+        QListWidgetItem *___qlistwidgetitem14 = listWidget_4->item(4);
+        ___qlistwidgetitem14->setText(QApplication::translate("MainWindow", "5", nullptr));
+        QListWidgetItem *___qlistwidgetitem15 = listWidget_4->item(5);
+        ___qlistwidgetitem15->setText(QApplication::translate("MainWindow", "6", nullptr));
+        QListWidgetItem *___qlistwidgetitem16 = listWidget_4->item(6);
+        ___qlistwidgetitem16->setText(QApplication::translate("MainWindow", "7", nullptr));
+        QListWidgetItem *___qlistwidgetitem17 = listWidget_4->item(7);
+        ___qlistwidgetitem17->setText(QApplication::translate("MainWindow", "8", nullptr));
+        QListWidgetItem *___qlistwidgetitem18 = listWidget_4->item(8);
+        ___qlistwidgetitem18->setText(QApplication::translate("MainWindow", "9", nullptr));
+        QListWidgetItem *___qlistwidgetitem19 = listWidget_4->item(9);
+        ___qlistwidgetitem19->setText(QApplication::translate("MainWindow", "10", nullptr));
         listWidget_4->setSortingEnabled(__sortingEnabled2);
 
         toolButton_5->setText(QApplication::translate("MainWindow", "Next", nullptr));
@@ -3305,10 +3308,10 @@ public:
 
         const bool __sortingEnabled3 = listWidget_2->isSortingEnabled();
         listWidget_2->setSortingEnabled(false);
-        QListWidgetItem *___qlistwidgetitem19 = listWidget_2->item(0);
-        ___qlistwidgetitem19->setText(QApplication::translate("MainWindow", "Normal Wash", nullptr));
-        QListWidgetItem *___qlistwidgetitem20 = listWidget_2->item(1);
-        ___qlistwidgetitem20->setText(QApplication::translate("MainWindow", "Cross Wash", nullptr));
+        QListWidgetItem *___qlistwidgetitem20 = listWidget_2->item(0);
+        ___qlistwidgetitem20->setText(QApplication::translate("MainWindow", "Normal Wash", nullptr));
+        QListWidgetItem *___qlistwidgetitem21 = listWidget_2->item(1);
+        ___qlistwidgetitem21->setText(QApplication::translate("MainWindow", "Cross Wash", nullptr));
         listWidget_2->setSortingEnabled(__sortingEnabled3);
 
         lineEdit_13->setText(QApplication::translate("MainWindow", "0", nullptr));
@@ -3349,26 +3352,26 @@ public:
 
         const bool __sortingEnabled4 = listWidget_5->isSortingEnabled();
         listWidget_5->setSortingEnabled(false);
-        QListWidgetItem *___qlistwidgetitem21 = listWidget_5->item(0);
-        ___qlistwidgetitem21->setText(QApplication::translate("MainWindow", "1", nullptr));
-        QListWidgetItem *___qlistwidgetitem22 = listWidget_5->item(1);
-        ___qlistwidgetitem22->setText(QApplication::translate("MainWindow", "2", nullptr));
-        QListWidgetItem *___qlistwidgetitem23 = listWidget_5->item(2);
-        ___qlistwidgetitem23->setText(QApplication::translate("MainWindow", "3", nullptr));
-        QListWidgetItem *___qlistwidgetitem24 = listWidget_5->item(3);
-        ___qlistwidgetitem24->setText(QApplication::translate("MainWindow", "4", nullptr));
-        QListWidgetItem *___qlistwidgetitem25 = listWidget_5->item(4);
-        ___qlistwidgetitem25->setText(QApplication::translate("MainWindow", "5", nullptr));
-        QListWidgetItem *___qlistwidgetitem26 = listWidget_5->item(5);
-        ___qlistwidgetitem26->setText(QApplication::translate("MainWindow", "6", nullptr));
-        QListWidgetItem *___qlistwidgetitem27 = listWidget_5->item(6);
-        ___qlistwidgetitem27->setText(QApplication::translate("MainWindow", "7", nullptr));
-        QListWidgetItem *___qlistwidgetitem28 = listWidget_5->item(7);
-        ___qlistwidgetitem28->setText(QApplication::translate("MainWindow", "8", nullptr));
-        QListWidgetItem *___qlistwidgetitem29 = listWidget_5->item(8);
-        ___qlistwidgetitem29->setText(QApplication::translate("MainWindow", "9", nullptr));
-        QListWidgetItem *___qlistwidgetitem30 = listWidget_5->item(9);
-        ___qlistwidgetitem30->setText(QApplication::translate("MainWindow", "10", nullptr));
+        QListWidgetItem *___qlistwidgetitem22 = listWidget_5->item(0);
+        ___qlistwidgetitem22->setText(QApplication::translate("MainWindow", "1", nullptr));
+        QListWidgetItem *___qlistwidgetitem23 = listWidget_5->item(1);
+        ___qlistwidgetitem23->setText(QApplication::translate("MainWindow", "2", nullptr));
+        QListWidgetItem *___qlistwidgetitem24 = listWidget_5->item(2);
+        ___qlistwidgetitem24->setText(QApplication::translate("MainWindow", "3", nullptr));
+        QListWidgetItem *___qlistwidgetitem25 = listWidget_5->item(3);
+        ___qlistwidgetitem25->setText(QApplication::translate("MainWindow", "4", nullptr));
+        QListWidgetItem *___qlistwidgetitem26 = listWidget_5->item(4);
+        ___qlistwidgetitem26->setText(QApplication::translate("MainWindow", "5", nullptr));
+        QListWidgetItem *___qlistwidgetitem27 = listWidget_5->item(5);
+        ___qlistwidgetitem27->setText(QApplication::translate("MainWindow", "6", nullptr));
+        QListWidgetItem *___qlistwidgetitem28 = listWidget_5->item(6);
+        ___qlistwidgetitem28->setText(QApplication::translate("MainWindow", "7", nullptr));
+        QListWidgetItem *___qlistwidgetitem29 = listWidget_5->item(7);
+        ___qlistwidgetitem29->setText(QApplication::translate("MainWindow", "8", nullptr));
+        QListWidgetItem *___qlistwidgetitem30 = listWidget_5->item(8);
+        ___qlistwidgetitem30->setText(QApplication::translate("MainWindow", "9", nullptr));
+        QListWidgetItem *___qlistwidgetitem31 = listWidget_5->item(9);
+        ___qlistwidgetitem31->setText(QApplication::translate("MainWindow", "10", nullptr));
         listWidget_5->setSortingEnabled(__sortingEnabled4);
 
         toolButton_10->setText(QApplication::translate("MainWindow", "Stop", nullptr));
