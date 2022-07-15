@@ -234,6 +234,9 @@ public:
     QPushButton *pushButton_12;
     QToolButton *toolButton_21;
     QToolButton *toolButton_22;
+    QLabel *label_34;
+    QComboBox *comboBox_2;
+    QToolButton *toolButton_30;
     QWidget *page_14;
     QToolButton *toolButton_23;
     QLineEdit *lineEdit_11;
@@ -3008,6 +3011,73 @@ public:
 "}\n"
 "\n"
 ""));
+        label_34 = new QLabel(page_13);
+        label_34->setObjectName(QStringLiteral("label_34"));
+        label_34->setGeometry(QRect(40, 260, 321, 20));
+        label_34->setFont(font4);
+        label_34->setStyleSheet(QStringLiteral("color:rgb(255, 255, 255)"));
+        comboBox_2 = new QComboBox(page_13);
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->setObjectName(QStringLiteral("comboBox_2"));
+        comboBox_2->setGeometry(QRect(380, 250, 121, 41));
+        comboBox_2->setFont(font5);
+        comboBox_2->setStyleSheet(QLatin1String("QComboBox{\n"
+"border:                 none;\n"
+"background-color:   rgb(87, 96, 134);\n"
+"color:                      rgb(255,255,255);\n"
+"font-weight:            bold;\n"
+"padding:                    5px \n"
+"\n"
+"}\n"
+"\n"
+"QComboBox::drop-down{\n"
+"    border:                 none;\n"
+"    background-color:   rgb(87, 96, 134);\n"
+"    color:                      rgb(255, 255, 255);\n"
+"    font-weight:            bold;\n"
+"    padding:                    0px;\n"
+"}\n"
+"\n"
+"QComboBox::down-arrow{\n"
+"    image:                      url(:/icons/combobox_down_arrow.png);\n"
+"    padding-right:          5px;\n"
+"}\n"
+"\n"
+"QListView{\n"
+"    border:                 none;\n"
+"    color:                      rgb(87, 96, 134);\n"
+"    background-color:    rgb(87, 96, 134);\n"
+"    font-weight:            bold;\n"
+"    selection-background-color: rgb(47, 175, 178);\n"
+"    show-decoration-selected: 1;\n"
+"    margin-left:                -10px;\n"
+"    padding-left    :           15px;\n"
+"}\n"
+"\n"
+"QListView::i"
+                        "tem:hover{\n"
+"\n"
+"    background-color:   rgb(47, 175, 178);\n"
+"    border:                 none;\n"
+"}"));
+        toolButton_30 = new QToolButton(page_13);
+        toolButton_30->setObjectName(QStringLiteral("toolButton_30"));
+        toolButton_30->setGeometry(QRect(550, 240, 141, 50));
+        toolButton_30->setFont(font);
+        toolButton_30->setStyleSheet(QLatin1String("QToolButton {\n"
+"background-color:qlineargradient(spread:reflect, x1:0.535816, y1:0.489, x2:0.53051, y2:1, stop:0 rgba(22, 38, 54,255), stop:1 rgba(55,65,74,255));\n"
+"color:rgb(255, 255, 255);\n"
+"border: 2px solid rgb(0, 170, 255);\n"
+"border-bottom-right-radius :30px;\n"
+"/*border-top-left-radius :30px;*/\n"
+"/*border-radius: 10px;*/\n"
+"}\n"
+"QToolButton:pressed{\n"
+"background-color:rgb(0, 170, 255)\n"
+"}\n"
+"\n"
+""));
         stackedWidget->addWidget(page_13);
         lineEdit_7->raise();
         label_24->raise();
@@ -3025,6 +3095,9 @@ public:
         pushButton_12->raise();
         pushButton_7->raise();
         pushButton_8->raise();
+        label_34->raise();
+        comboBox_2->raise();
+        toolButton_30->raise();
         page_14 = new QWidget();
         page_14->setObjectName(QStringLiteral("page_14"));
         toolButton_23 = new QToolButton(page_14);
@@ -3230,7 +3303,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(9);
         stackedWidget_2->setCurrentIndex(2);
 
 
@@ -3490,14 +3563,19 @@ public:
         pushButton_7->setText(QString());
         label_25->setText(QApplication::translate("MainWindow", "Speed[0-255]", nullptr));
         pushButton_8->setText(QString());
-        label_26->setText(QApplication::translate("MainWindow", "Duration", nullptr));
+        label_26->setText(QApplication::translate("MainWindow", "Duration(S)", nullptr));
         pushButton_11->setText(QString());
-        label_27->setText(QApplication::translate("MainWindow", "Duration", nullptr));
+        label_27->setText(QApplication::translate("MainWindow", "Duration(S)", nullptr));
         label_28->setText(QApplication::translate("MainWindow", "Speed[0-255]", nullptr));
         label_29->setText(QApplication::translate("MainWindow", "Prime Pump", nullptr));
         pushButton_12->setText(QString());
         toolButton_21->setText(QApplication::translate("MainWindow", "Test", nullptr));
         toolButton_22->setText(QApplication::translate("MainWindow", "Test", nullptr));
+        label_34->setText(QApplication::translate("MainWindow", "Always ON vaccum pump while washing", nullptr));
+        comboBox_2->setItemText(0, QApplication::translate("MainWindow", "No", nullptr));
+        comboBox_2->setItemText(1, QApplication::translate("MainWindow", "Yes", nullptr));
+
+        toolButton_30->setText(QApplication::translate("MainWindow", "Save", nullptr));
         toolButton_23->setText(QApplication::translate("MainWindow", "Test", nullptr));
         pushButton_13->setText(QString());
         label_30->setText(QApplication::translate("MainWindow", "Priming Duration (S)", nullptr));
